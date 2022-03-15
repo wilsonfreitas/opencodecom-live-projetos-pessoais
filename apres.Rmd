@@ -1,0 +1,99 @@
+---
+title: "Desenvolvimento de Pacotes para Finanças"
+subtitle: "R e Python"
+author: "Wilson Freitas"
+institute: "wilsonfreitas.net"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# Agenda
+
+- Quem sou eu?
+- Desenvolvimento de pacotes em R e Python
+- Submissão de pacotes para o CRAN e PyPI
+- Meus pacotes
+- Aplicações dos pacotes
+
+---
+
+# Quem sou eu?
+
+### Wilson Freitas
+
+- Físico no Mercado Financeiro
+
+- Desenvolvedor de Pacotes de Software Livre para Finanças
+
+--
+
+### Objetivo
+
+- Tornar a vida dos quants no Brasil menos miserável
+
+---
+class: center, middle
+
+# Desenvolvimento de pacotes em R e Python
+
+- Há muitos gaps a serem endereçados em finanças no Brasil
+
+### Qual a motivação para o desenvolvimento dos pacotes?
+
+- Resolver os meus problemas
+
+--
+
+- Já vi muita miséria nessa vida
+
+---
+class: inverse, center, middle
+
+# Quem sou eu?
+
+### Wilson Freitas
+
+---
+
+# Desenvolvimento de Pacotes para Finanças
+
+
+--
+
+You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+
+- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
+
+--
+
+- Click the `Knit` button to compile it;
+
+--
+
+- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+
+.footnote[
+[1] 中文用户请看[这份教程](https://slides.yihui.org/xaringan/zh-CN.html)
+
+[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
+]
+
+---
+
+class: center, middle
+
+# FIM
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
